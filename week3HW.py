@@ -1,7 +1,7 @@
 def check_users(current_users, new_users):
     pass
     lowerC_us = [l.lower() for l in current_users]
-    for new_users in new_users:
+    for new_users in new_us:
         if new_users in lowerC_us:
             print(f"Unfortunately, {new_users} has already been taken. Please choose another username.")
         else:
